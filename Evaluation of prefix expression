@@ -1,4 +1,3 @@
-// CPP program to evaluate a prefix expression. 
 #include <bits/stdc++.h> 
 using namespace std; 
   
