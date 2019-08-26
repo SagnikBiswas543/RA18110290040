@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+	int a,bill;
+	printf("enter the value of a");
+	scanf("%d",&a);
+	if(a>=60)
+	{
+	bill=a*5;	
+	printf("pay amount=%d",bill);
+	}
+	else if(a>=40)
+	{
+		bill=a*4;
+		printf("pay amount=%d",bill);
+			}
+			else if(a>=20)
+			{
+				bill=a*3;
+				printf("pay amount=%d",bill);
+			}
+			else if(a>=0)
+			{
+				bill=a*0;
+				printf("pay amount=%d",bill);
+			}
+			return 0;
+	
+
+}
