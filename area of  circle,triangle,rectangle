@@ -1,0 +1,36 @@
+#include<stdio.h>
+int main()
+{
+	float area,a,b,r;
+	int ch;
+	printf("\nmenu");
+	printf("\ncase 1: area of circle");
+	printf("\ncase 2: area of triangle");
+	printf("\ncase 3: area of rectangle");
+	printf("\nenter the value of your choice");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+		case 1:
+			printf("enter the value of r");
+			scanf("%f",&r);
+			area=3.14*r*r;
+			printf("the area of circle is=%f",area);
+			break;
+			case 2:
+				printf("enter the value of a and b");
+			scanf("%f %f",&a,&b);
+			area=0.5*a*b;
+			printf("the area of triangle is=%f",area);
+			break;
+			case 3: 
+				printf("enter the value of a and b");
+			scanf("%f %f",&a,&b);
+			area=a*b;
+			printf("the area of rectangle is=%f",area);
+			break;
+			default:
+				printf("not valid");
+	}
+	return 0;
+	}
