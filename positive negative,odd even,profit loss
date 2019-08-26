@@ -1,0 +1,51 @@
+#include<stdio.h>
+int main()
+{
+	int num,cp,sp,l,p;
+	int ch;
+	printf("\nmenu");
+	printf("\ncase 1: positive and negative");
+	printf("\ncase 2: even and odd");
+	printf("\ncase 3: profit and loss");
+	printf("\nenter the value of your choice");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+		case 1:
+			printf("enter the value of num");
+			scanf("%d",&num);
+			if(num>=0)
+			printf("positive");
+			else
+			printf("negative");
+			break;
+			case 2:
+				printf("enter the value of num");
+			scanf("%d",&num);
+			if(num%2==0)
+			printf("even");
+			else
+			printf("odd");
+			break;
+			case 3: 
+				printf("enter the value of cp and sp");
+			scanf("%d %d",&cp,&sp);
+			if(cp<sp)
+			{
+				p=sp-cp;
+				printf("profit=%d",p);
+			}
+				else
+				{
+					l=cp-sp;
+					printf("loss=%d",l);
+				}
+				break;
+				default:
+					printf("not valid");
+			}
+			return 0;
+			
+	}
+	
+	
