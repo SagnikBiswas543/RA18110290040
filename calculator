@@ -1,0 +1,44 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	int ch;
+	printf("\nmenu");
+	printf("\ncase 1: addition");
+	printf("\ncase 2: subtraction");
+	printf("\ncase 3: multiplication");
+	printf("\ncase 4: division");
+	printf("\nenter the value of your choice");
+	scanf("%d",&ch);
+	switch(ch)
+	{
+	case 1:
+	printf("enter the value of a and b");
+	scanf("%d %d",&a,&b);
+	c=a+b;
+	printf("rezult is=%d",c);
+	break;	
+	case 2:
+	printf("enter the value of a and b");
+	scanf("%d %d",&a,&b);
+	c=a-b;
+	printf("rezult is=%d",c);
+	break;	
+	case 3:
+	printf("enter the value of a and b");
+	scanf("%d %d",&a,&b);
+	c=a*b;
+	printf("rezult is=%d",c);
+	break;
+	case 4:
+	printf("enter the value of a and b");
+	scanf("%d %d",&a,&b);
+	c=a/b;
+	printf("rezult is=%d",c);
+	break;
+	default:
+	printf("not valid");		
+	}
+	return 0;
+}
+	
