@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	float a,b,c,d,e,m;
+	printf("enter the value of a b c d e");
+	scanf("%f %f %f %f %f",&a,&b,&c,&d,&e);
+	m=((a+b+c+d+e)/5);
+	printf("value of m=%f",m);
+	return 0;
+}
