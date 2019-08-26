@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e,p;
+	printf("enter the value of a b c d and e");
+	scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+	p=(a+b+c+d+e)/5;
+	if(p>=90)
+	printf("distinction");
+	if((p<90)&&(p>=70))
+	printf("first class");
+	if((p<70)&&(p>=50))
+	printf("second class");
+	if((p<50)&&(p>=40))
+	printf("pass");
+	if(p<40)
+	printf("fail");
+	return 0;
+	
+}
